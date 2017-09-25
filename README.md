@@ -19,7 +19,7 @@ Flask-pool-showcase!
 * use dynamic pool
 ![use dynamic pool](showcase.png)
 * use fixed 10 sized pool
-![fixed 10 sized pool](fixed.png)
+![fixed 10 sized pool](fixed10.png)
 * use no pool(directly connect)
 ![directly connect](directlyconn.png)
 
