@@ -19,10 +19,10 @@ Flask-pool-showcase!
 * use dynamic pool
 ![use dynamic pool](showcase.png)
 * use fixed 10 sized pool
-![fixed 10 sized pool](fixed10.png)
+![fixed 10 sized pool](fixed.png)
 * use no pool(directly connect)
 ![directly connect](directlyconn.png)
 
 # vs Flask default mysql
 * no pool effect and direct connected
-![Flask.db.backends.mysql](Flask.png)
+![Flask.db.backends.mysql](flask.png)
