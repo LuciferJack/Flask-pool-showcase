@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Python Flask Bucket List App</title>
+
+
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/css/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../static/css/signup.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="header">
+        <nav>
+            <ul class="nav nav-pills pull-right">
+                <li hidden role="presentation" ><a href="main">Home</a></li>
+                <li hidden role="presentation"><a href="#">Sign In</a></li>
+                <li hidden role="presentation" class="active"><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+        <h3 align=center class="text-muted">通用内容POI挂载系统</h3>
+    </div>
+
+    <div class="jumbotron">
+        <h1 align=center >articles mount poi system</h1>
+        <form class="form-signin">
+            <label for="inputTitle" class="sr-only">Name</label>
+            <input type="name" name="inputTitle" id="inputTitle" class="form-control" placeholder="Article Title" required autofocus>
+            <label for="inputContent" class="sr-only">Email address</label>
+            <input type="email" name="inputContent" id="inputContent" class="form-control" placeholder="Article Content" required autofocus>
+            <label for="inputCategory" class="sr-only">Password</label>
+            <input type="password" name="inputCategory" id="inputCategory" class="form-control" placeholder="Article Category(optional)" required>
+
+            <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="button">Mount up</button>
+            <script type="text/javascript" src="../static/js/jquery-3.2.1.js"></script>
+            <script type="text/javascript" src="../static/js/fuzzy_do.js"></script>
+        </form>
+    </div>
+
+
+
+    <footer class="footer">
+        <p>&copy; Company 2017</p>
+    </footer>
+
+</div>
+</body>
+</html>
